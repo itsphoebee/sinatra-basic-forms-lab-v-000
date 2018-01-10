@@ -3,7 +3,7 @@ class Puppy
 
   def initialize(hash)
     hash.each do |key, value|
-      self.send"#{key}=", value
+      self.send "#{key}=", value
     end
   end
 
